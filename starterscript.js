@@ -28,7 +28,7 @@ var map = L.mapbox.map('map', 'mapbox.emerald', {
 
 var marker = L.rotatedMarker(new L.LatLng(37.9, -77), {
   icon: L.icon({
-    iconUrl: 'https://www.mapbox.com/maki/renders/airport-24@2x.png',
+    'marker-symbol': 'park',
     iconSize: [24, 24],
   }),
   draggable: true
