@@ -6,31 +6,18 @@ L.mapbox.accessToken = 'pk.eyJ1IjoiamVmZnN0ZXJuIiwiYSI6IlAzRFFiN0EifQ.mNWvayrLEw
 
 var map = L.mapbox.map('map', 'examples.map-20v6611k').setView([38.12367, -76.81229], 9);  //sets initial lat & long & zoom level
 
-var myLayer = L.mapbox.featureLayer().addTo(map);  // put points on map
-
-var geojson = {  //the list of features
-    type: 'FeatureCollection',
-	draggable: true;
 
 
-    // This is an array of Map Point objects
-    features: [  // list of features 
-    
-    {
-        type: 'Feature',
-        properties: {  //info about the point
-            title: 'Bay Area, CA',
-            description: 'There are FIFTEEN summer immersion programs in the Bay Area this year!',
-            'marker-color': '#f9d62e',
-            'marker-size': 'large',
-            'marker-symbol': 'marker',
-        },
-        geometry: { // where the point is 
-            type: 'Point',
-            coordinates: [-122.419, 37.774]
-        }
-    },
-}
+var marker = L.marker(new L.LatLng(37.9, -77), {
+    icon: L.mapbox.marker.icon({
+        'marker-color': 'ff8888'
+		'marker-symbol': 'park'
+    }),
+    draggable: true
+});
+
+marker.bindPopup('This marker is draggable! Move it around.');
+marker.addTo(map);
 
 /* L.RotatedMarker = L.Marker.extend({
   options: { angle: 0 },
