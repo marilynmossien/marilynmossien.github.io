@@ -1,7 +1,38 @@
 L.mapbox.accessToken = 'pk.eyJ1IjoiamVmZnN0ZXJuIiwiYSI6IlAzRFFiN0EifQ.mNWvayrLEw9wULuq0sopyA';
 // MIT-licensed code by Benjamin Becquet
 // https://github.com/bbecquet/Leaflet.PolylineDecorator
-L.RotatedMarker = L.Marker.extend({
+
+
+
+var map = L.mapbox.map('map', 'examples.map-20v6611k').setView([38.12367, -76.81229], 9);  //sets initial lat & long & zoom level
+
+var myLayer = L.mapbox.featureLayer().addTo(map);  // put points on map
+
+var geojson = {  //the list of features
+    type: 'FeatureCollection',
+	draggable: true;
+
+
+    // This is an array of Map Point objects
+    features: [  // list of features 
+    
+    {
+        type: 'Feature',
+        properties: {  //info about the point
+            title: 'Bay Area, CA',
+            description: 'There are FIFTEEN summer immersion programs in the Bay Area this year!',
+            'marker-color': '#f9d62e',
+            'marker-size': 'large',
+            'marker-symbol': 'marker',
+        },
+        geometry: { // where the point is 
+            type: 'Point',
+            coordinates: [-122.419, 37.774]
+        }
+    },
+}
+
+/* L.RotatedMarker = L.Marker.extend({
   options: { angle: 0 },
   _setPos: function(pos) {
     L.Marker.prototype._setPos.call(this, pos);
@@ -28,7 +59,7 @@ var map = L.mapbox.map('map', 'mapbox.emerald', {
 
 var marker = L.rotatedMarker(new L.LatLng(37.9, -77), {
   icon: L.icon({
-    'marker-symbol': 'park',
+    iconUrl: 'https://www.mapbox.com/maki/renders/airport-24@2x.png',
     iconSize: [24, 24],
   }),
   draggable: true
@@ -57,4 +88,4 @@ document.body.addEventListener('keydown', function(e) {
   if (e.which == 39) {
     direction += 0.1; manual = true;
   }
-}, true);
+}, true); */
