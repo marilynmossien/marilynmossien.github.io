@@ -1,4 +1,14 @@
-<style>
-  body { margin:0; padding:0; }
-  #map { position:absolute; top:0; bottom:0; width:100%; }
-</style>
+
+ body { margin:0; padding:0; }
+
+  #container { 
+	position:relative; 
+	margin: 0px auto; 
+	width: 80%;
+}
+
+#map { 
+	position:relative; 
+	height: 500px; 
+	width:100%; 
+}
