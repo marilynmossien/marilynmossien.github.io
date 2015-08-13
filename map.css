@@ -1,0 +1,60 @@
+
+ body { 
+	background-color:#113333;
+	}
+#header {
+	color:#FFFFFF;
+	text-align:center;
+	font-size:200%;
+}
+ 
+  #container { 
+	position:relative; 
+	margin: 0px auto; 
+	width: 80%;
+}
+
+#map { 
+	position:relative; 
+	height: 500px; 
+	width:95%; 
+}
+pre.ui-coordinates {
+  position:absolute;
+  bottom:10px;
+  left:10px;
+  padding:5px 10px;
+  background:rgba(0,0,0,0.5);
+  color:#fff;
+  font-size:11px;
+  line-height:18px;
+  border-radius:3px;
+  }
+  
+  #timer {
+	position:relative;
+	padding: 10px;
+	left:5px;
+	font-size:200%;
+	color:#FFFFFF;
+  }
+  
+.name {
+	text-align:center;
+	font-size:200%;
+	color:#FFFFFF;
+}
+img {
+	float:left;
+	margin-left:20px;
+	margin-right:5px;
+	margin-top:5px;
+	margin-bottom:5px;
+	
+}
+.description {
+	color:#FFFFFF;
+	text-align:left;
+	font-size:150%
+}
+
