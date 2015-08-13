@@ -1,12 +1,121 @@
-
- body { margin:0; padding:0; }
-
-  #container { 
-	position:relative; 
-	margin: 0px auto; 
-	width: 80%;
+body { 
+	margin:0; 
+	padding:0; 
 }
 
+@font-face{
+	font-family: AgentOrange;
+	src: url(AgentOrange.ttf);	
+} 
+@font-face{
+	font-family:Mawns_Handwriting;
+	src: url(Mawns_Handwriting.ttf);
+}
+
+.beginning{
+	margin: 0;
+	padding: 0;
+	position: relative;
+	text-align: center;
+} 
+#slide{
+	z-index: -1; 
+	width: 100%;
+	height: 2000px;
+}
+h1 {
+	position: absolute; 
+	top: 750px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+#begg span{
+	font-family: AgentOrange;
+	font-size: 1000%;
+	color: white;
+	/*background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.7);
+	padding-top: 30px;
+	padding-left: 45px;  
+	padding-right: 45px; 
+	padding-bottom: 30px; */
+}
+h2{
+	position: absolute;
+	top: 1350px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+#caption span{
+	font-size: 400%;
+	font-family: Mawns_Handwriting;
+	color: white;
+	/*background: rgba(0, 0, 0, .7);
+	padding-top: 30px;
+	padding-left: 45px;
+	padding-right: 45px;
+	padding-bottom: 30px;*/
+}
+.blackborder{
+	background-color: black;
+	width: 100%;
+	height: 50px;
+}
+ .environment{
+	margin: 0;
+	padding: 0;
+	position: relative;
+ }
+ 
+
+ div p {
+position: absolute;
+top: 1628px;
+left: 0px;
+width: auto;
+}
+ 
+ #envi {
+	color: white;
+	font-size: 600%; 
+	font-family: Mawns_Handwriting;
+	font-style: italic; 
+	background: rgba(0, 0, 0, .7);
+	top:1727px;
+	padding-top: 25px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 25px; 
+ }
+ #slide2{
+	z-index: -1;
+	width: 100%;
+	height: 2400px;
+}
+.election{
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+#ele{
+	color: white;
+	font-size: 600%;
+	font-family: Mawns_Handwriting;
+	font-style: italic;
+	background: rgba(0, 0, 0, .7);
+	padding-top: 25px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 25px;
+}
+#slide3{
+	z-index: -1; 
+	width: 100%;
+	height: 2300px; 
+}
 #map { 
 	position:relative; 
 	height: 500px; 
