@@ -1,0 +1,56 @@
+
+
+@font-face{
+	font-family: AgentOrange;
+	src: url(AgentOrange.ttf);	
+} 
+
+img {
+	border: 10px solid black; 
+	top: 300px;
+	left: 400px; 
+	height: 500px;
+	width: 500px; 
+	position: center; 
+}
+
+.sexuality{
+	left: 300px; 
+}
+
+.Title{
+	text-align: center;
+	font-family: AgentOrange;
+	font-size: 400%; 
+	color: black; 
+}
+
+@font-face{
+	font-family:Mawns_Handwriting;
+	src: url(Mawns_Handwriting.ttf);
+}
+#description{
+	text-align: center;
+	font-family: Mawns_Handwriting;
+	font-size: 200%; 
+	color: black;
+}
+#play{
+	text-align: center; 
+	font-family: Mawns_Handwriting; 
+	font-size: 200%; 
+	color: white; 
+	background: rgb(0, 0, 0);
+	width: 300px; 
+	padding-top: 10px; 
+	padding-bottom: 10px;
+	padding-left: 10px; 
+	padding-right: 10px; 
+}
+
+#disclaimer {
+	text-align: center;
+	font-family: Mawns_Handwriting;
+	font-size: 150%; 
+	color: black; 
+}

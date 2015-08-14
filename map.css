@@ -1,19 +1,21 @@
-
+@font-face{
+	font-family: AgentOrange;
+	src: url(AgentOrange.ttf);	
+} 
  body { 
 	background-color:#113333;
 	}
 #header {
 	color:#FFFFFF;
+	font-family: AgentOrange;
 	text-align:center;
-	font-size:200%;
+	font-size:400%;
 }
- 
   #container { 
 	position:relative; 
 	margin: 0px auto; 
 	width: 80%;
 }
-
 #map { 
 	position:relative; 
 	height: 500px; 
@@ -30,7 +32,10 @@ pre.ui-coordinates {
   line-height:18px;
   border-radius:3px;
   }
-  
+  @font-face{
+	font-family:Mawns_Handwriting;
+	src: url(Mawns_Handwriting.ttf);
+} 
   #timer {
 	position:relative;
 	padding: 10px;
@@ -38,10 +43,10 @@ pre.ui-coordinates {
 	font-size:200%;
 	color:#FFFFFF;
   }
-  
 .name {
 	text-align:center;
 	font-size:200%;
+	font-family: Mawns_Handwriting; 
 	color:#FFFFFF;
 }
 img {
@@ -50,7 +55,6 @@ img {
 	margin-right:5px;
 	margin-top:5px;
 	margin-bottom:5px;
-	
 }
 .description {
 	color:#FFFFFF;

@@ -1,0 +1,51 @@
+.candidate{
+	font-size: 100%;
+	color: black;
+	text-align: left;
+}
+
+@font-face{
+	font-family: AgentOrange;
+	src: url(AgentOrange.ttf);	
+} 
+
+.Election{
+	font-family: AgentOrange;
+	font-size: 400%; 
+	color: black; 
+	text-align: center; 
+}
+
+@font-face{
+	font-family:Mawns_Handwriting;
+	src: url(Mawns_Handwriting.ttf);
+}
+
+.Republican {
+	font-size: 150%;
+	text-align: left;
+	color: red;
+	font-family: Mawns_Handwriting;
+}
+
+.Democrat {
+	font-size: 150%;
+	color: blue; 
+	text-align: left;
+	font-family: Mawns_Handwriting;
+}
+
+
+
+
+img {
+	float:left;
+	margin-left:20px;
+	margin-right:5px;
+	margin-top:5px;
+	margin-bottom:5px;
+	height: 200px;
+	width: 170px;
+	border: 10px solid black; 
+	
+}

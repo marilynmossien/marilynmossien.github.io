@@ -1,33 +1,3 @@
-/* L.mapbox.accessToken = 'pk.eyJ1IjoiamVmZnN0ZXJuIiwiYSI6IlAzRFFiN0EifQ.mNWvayrLEw9wULuq0sopyA';
-var map = L.mapbox.map('map', 'mapbox.streets')
-    .setView([37.9, -77],4);
-
-document.getElementById("button").onclick=function() {myButtonFunction()};
-
-
-var park = L.marker(new L.LatLng(37.9, -77), {
-    icon: L.mapbox.marker.icon({
-        'marker-color': 'ff8888',
-		'marker-symbol': 'park'
-		
-    }),
-    draggable: true
-});
-
-park.bindPopup('This marker is draggable! Move it around.');
-park.addTo(map);
-
-function myButtonFunction() {
-		park = L.marker(new L.LatLng(100,-50),{
-	icon: L.mapbox.marker.icon({
-        'marker-color': 'ff8888',
-		'marker-symbol': 'park'
-		
-    }),
-    draggable: true
-});
-} */
-
 var slideimages = new Array() 
 slideimages[0] = new Image()
 slideimages[0].src = "washington.png" 
@@ -57,16 +27,13 @@ function slideit(){
 slideit()
 
 
-
-
-
-var slidetext2 = [
+/* var slidetext2 = [
 "Red wolves are threatened by human development and illegal hunting.", 
 "The decrease in Arctic ice due to global warming threatens the polar bear.", 
 "The adorable jaguarundi is threatened by habitat loss.", 
 "Jaguars are threatened by loss of their rainforest habitat.", 
 "Habitat fragmentation threatens the ocelot.", 
-"The California Floristic Province is threatened by commercial farming."] 
+"The California Floristic Province is threatened by commercial farming."] */
 
 
 var slideimages2 = new Array() 
@@ -88,19 +55,19 @@ slideimages2[5].src = "calif.png"
 var steps=0; 
 function slideit2(){
 	document.getElementById('slide2').src = slideimages2[steps].src
-	document.getElementById('envi').innerHTML = slidetext2[steps]
+	//document.getElementById('envi').innerHTML = slidetext2[steps]
 	if(steps<5){
 		steps++
 	}else{
 		steps=0
 	}
-	setTimeout("slideit2()",7000)
+	setTimeout("slideit2()",5000)
 }
 slideit2();  
 
 
 
-var slidetext3 = [
+/* var slidetext3 = [
 "Donald Trump is currently leading in the Republican polls.", 
 "Hillary Clinton has been the leading Democratic candidate for some time.", 
 "Jeb Bush's brother AND father were presidents. Wow.", 
@@ -108,7 +75,7 @@ var slidetext3 = [
 "Scott Walker is famous for fighting teachers' unions in Wisconsin.", 
 "You didn't know Joe Biden was running for president? Yeah, neither did we.",
 "Ben Carson has 67 honorary doctorates and is a retired neurosurgeon.",
-"Who even is Jim Webb?"] 
+"Who even is Jim Webb?"]   */
 
 var slideimages3 = new Array() 
 slideimages3[0] = new Image()
@@ -126,22 +93,51 @@ slideimages3[5].src = "biden.png"
 slideimages3[6] = new Image()
 slideimages3[6].src = "carson.png"
 slideimages3[7] = new Image()
-slideimages3[7].src = "jimwebb.png"
+slideimages3[7].src = "rubio.png"
 
 var stepps=0; 
 
 function slideit3(){
 	document.getElementById('slide3').src = slideimages3[stepps].src
-	document.getElementById('ele').innerHTML = slidetext3[stepps]
+	//document.getElementById('ele').innerHTML = slidetext3[stepps]
 	if(stepps<7){
 		stepps++
 	}else{
 		stepps=0
 	}
-	setTimeout("slideit3()",7000)
+	setTimeout("slideit3()",5000)
 }
 
 slideit3()
+
+
+var slideimages4 = new Array() 
+slideimages4[0] = new Image()
+slideimages4[0].src = "gayprideflag.png" 
+slideimages4[1] = new Image()
+slideimages4[1].src = "biflag.png"
+slideimages4[2] = new Image()
+slideimages4[2].src = "asexualflag.png"
+slideimages4[3] = new Image()
+slideimages4[3].src = "panflag.png"
+slideimages4[4] = new Image()
+slideimages4[4].src = "demiflag.png"
+
+
+var steppps=0; 
+
+function slideit4(){
+	document.getElementById('slide4').src = slideimages4[steppps].src
+	//document.getElementById('ele').innerHTML = slidetext3[stepps]
+	if(steppps<4){
+		steppps++
+	}else{
+		steppps=0
+	}
+	setTimeout("slideit4()",5000)
+}
+
+slideit4()
 
 
 

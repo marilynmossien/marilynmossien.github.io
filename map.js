@@ -224,7 +224,7 @@ function undi_ondragend() {
     coordinates.innerHTML = 'Latitude: ' + u.lat + '<br />Longitude: ' + u.lng;
 	if(u.lat>=31 && u.lat<=41){ 
 		if(u.lng<=-108 && u.lng>=-116) {
-			window.alert("Yes! A small tip: look up more pictures of a Jaguarundi. It is not regrettable.");
+			window.alert("Yes! Hint: look up more pictures of a Jaguarundi. It is not regrettable.");
 		}
 	}
 }
@@ -252,7 +252,7 @@ function cal_ondragend() {
     coordinates.innerHTML = 'Latitude: ' + c.lat + '<br />Longitude: ' + c.lng;
 	if(c.lat>=31 && c.lat<=39){ 
 		if(c.lng<=-116 && c.lng>=-124) {
-			window.alert("");
+			window.alert("whaddUP Cali");
 		}
 	}
 }
