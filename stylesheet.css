@@ -142,7 +142,22 @@ color: white;
 	font-style: italic;
 	background: rgba(0, 0, 0, .7);
 	width: 1823px;
-	top: 550px;
+	top: 600px;
+	text-align: center;
+	padding-top: 25px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 25px;
+}
+
+#ele3{
+	color: white;
+	font-size: 300%;
+	font-family: Mawns_Handwriting;
+	font-style: italic;
+	background: rgba(0, 0, 0, .7);
+	width: 1823px;
+	top: 750px;
 	text-align: center;
 	padding-top: 25px;
 	padding-left: 40px;
