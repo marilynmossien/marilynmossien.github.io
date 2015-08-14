@@ -1,0 +1,119 @@
+body { 
+	background-color:#FFFFFF;
+	}
+
+	
+	.card {
+  position: relative;
+  float: left;
+  padding-bottom: 25%;
+  width: 10%;
+  height:5%;
+  margin-left:40px;
+  margin-right:40px;
+}
+
+.card__front,
+.card__back {
+
+  width: 50%;
+  height: 20%;
+}
+
+#card11{
+top: 0px; 
+left: 0px;
+position: absolute;
+
+}
+
+.card__front,
+.card__back {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transition: -webkit-transform 0.3s;
+          transition: transform 0.3s;
+}
+
+.card__front {
+  float:left;
+}
+
+.card__back {
+	float:left;
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+.card.effect__click.flipped .card__front {
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+.card.effect__click.flipped .card__back {
+  -webkit-transform: rotateY(0);
+          transform: rotateY(0);
+}
+
+/*second row*/
+
+
+	
+	.card2 {
+  position: relative;
+  padding-bottom: 25%;
+  width: 10%;
+  height:5%;
+  text-align: center;
+  margin-left:40px;
+  margin-right:40px;
+
+ 
+}
+
+.card2__front,
+.card2__back {
+
+  width: 50%;
+  height: 20%;
+}
+
+#card12{
+	top: 300px;
+	position: absolute;
+	left: 0px;
+}
+
+#card22{
+	top: 300px; 
+	position: relative;
+	left: 300px;  
+}
+
+.card2__front,
+.card2__back {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transition: -webkit-transform 0.3s;
+          transition: transform 0.3s;
+}
+
+.card2__front {
+
+}
+
+.card2__back {
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+.card2.effect__click.flipped .card2__front {
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+.card2.effect__click.flipped .card2__back {
+  -webkit-transform: rotateY(0);
+          transform: rotateY(0);
+}
+

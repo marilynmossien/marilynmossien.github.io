@@ -1,0 +1,32 @@
+body {
+	background:#FFFFFF;
+}
+
+div#memory_board {
+	background:#CCC;
+	border:#999 1px solid;
+	width:560px;
+	height:540px;
+	padding:24px;
+	margin:0px auto;
+
+}
+
+div#memory_board > div{
+	background:url(http://img2.findthebest.com/sites/default/files/2307/media/images/t2/Safety_Orange_Blaze_Orange_429976_i0.png) no-repeat;
+	border:#000 1px solid;
+	width:71px;
+	height:71px;
+	float:left;
+	margin:10px;
+	padding:20px;
+	font-size:64px;
+	cursor:pointer;
+	text-align:center;
+
+}
+
+img{
+	width:71px;
+	height:71px;
+}
