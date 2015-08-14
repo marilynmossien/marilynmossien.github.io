@@ -229,7 +229,7 @@ function undi_ondragend() {
 	}
 }
 
-////////////////CALIFORNIA FLORISTIC PROVINCE//////////////////////////////////
+///////////////CALFORNIA FLORISTIC PROVINCE//////////////////////////////////
 cal = L.marker(new L.LatLng(50,-34),{ //makes cfp marker
 		icon: L.mapbox.marker.icon({
         'marker-color': 'ffcc00',
@@ -251,8 +251,8 @@ function cal_ondragend() {
     var c = cal.getLatLng();
     coordinates.innerHTML = 'Latitude: ' + c.lat + '<br />Longitude: ' + c.lng;
 	if(c.lat>=31 && c.lat<=39){ 
-		if(c.lng<=-116 && c.lng>=-124) {
-			window.alert("whaddUP Cali");
+		if(c.lng<=-119 && c.lng>=-122) {
+			window.alert("Correct! Good job.");
 		}
 	}
 }
@@ -281,7 +281,7 @@ function polar_ondragend() {
     coordinates.innerHTML = 'Latitude: ' + p.lat + '<br />Longitude: ' + p.lng;
 	if(p.lat>=56 && p.lat<=64){ 
 		if(p.lng<=-139 && p.lng>=-147) {
-			window.alert("Right on!Polar bears can in fact be found in Alaska.");
+			window.alert("Right on! Polar bears can in fact be found in Alaska.");
 		}
 	}
 }
