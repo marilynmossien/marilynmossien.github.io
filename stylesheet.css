@@ -63,6 +63,14 @@ h2{
 	width: 100%;
 	height: 25px;
 }
+
+#mission{
+	font-size: 300%; 
+	font-family: Mawns_Handwriting;
+	color: white;
+	text-align: center;
+	top: 800px; 
+}
  .environment{
 	margin: 0;
 	padding: 0;
@@ -150,6 +158,21 @@ color: white;
 	padding-bottom: 25px;
 }
 
+#ele4{
+	color: white; 
+	font-size: 300%; 
+	font-family: Mawns_Handwriting;
+	font-style: italic;
+	background: rgba(0, 0, 0, .7);
+	width: 1823px;
+	top: 750px;
+	text-align: center; 
+	padding-top: 25px;
+	padding-left: 40px; 
+	padding-right: 40px;
+	padding-bottom: 25px;
+}
+
 #ele3{
 	color: white;
 	font-size: 300%;
@@ -157,7 +180,7 @@ color: white;
 	font-style: italic;
 	background: rgba(0, 0, 0, .7);
 	width: 1823px;
-	top: 750px;
+	top: 900px;
 	text-align: center;
 	padding-top: 25px;
 	padding-left: 40px;
