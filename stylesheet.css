@@ -65,11 +65,12 @@ h2{
 }
 
 #mission{
-	font-size: 300%; 
+	font-size: 250%; 
 	font-family: Mawns_Handwriting;
 	color: white;
 	text-align: center;
 	top: 720px; 
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
  .environment{
 	margin: 0;
