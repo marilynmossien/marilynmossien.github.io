@@ -109,6 +109,7 @@ width: auto;
 	top: 750px;
 	left: 50px; 
 	text-align: center; 
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
  }
  #slide2{
 	z-index: -1;
@@ -148,6 +149,7 @@ color: white;
 	top: 600px;
 	left: 50px; 
 	text-align: center;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 
 }
 
@@ -159,6 +161,7 @@ color: white;
 	top: 750px;
 	left: 50px; 
 	text-align: center; 
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
 #ele3 {
@@ -169,6 +172,7 @@ color: white;
 	top: 900px;
 	left: 50px;
 	text-align: center;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 
 }
 #slide3{
