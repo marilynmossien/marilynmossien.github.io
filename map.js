@@ -250,8 +250,8 @@ cal_ondragend();
 function cal_ondragend() {
     var c = cal.getLatLng();
     coordinates.innerHTML = 'Latitude: ' + c.lat + '<br />Longitude: ' + c.lng;
-	if(c.lat>=31 && c.lat<=39){ 
-		if(c.lng<=-119 && c.lng>=-122) {
+	if(c.lat>=32 && c.lat<=40){ 
+		if(c.lng<=-116 && c.lng>=-124) {
 			window.alert("Correct! Good job.");
 		}
 	}
