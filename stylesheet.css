@@ -98,20 +98,14 @@ width: auto;
 	padding-bottom: 25px; 
  } */
  
- #envi2{
+ #envi2 {
 	color: white;
 	font-size: 300%;
 	font-family: Mawns_Handwriting;
 	font-style: bold;
-	background: rgba(0, 0, 0, .7);
-	top: 550px;
-	width: 1823px; 
+	top: 750px;
+	left: 50px; 
 	text-align: center; 
-	padding-top: 25px;
-	padding-left: 40px;
-	padding-right: 40px;
-	padding-bottom: 25px;
- 
  }
  #slide2{
 	z-index: -1;
@@ -143,49 +137,36 @@ color: white;
 	padding-bottom: 25px;
 } */
 
-#ele2{
+#ele2 {
 	color: white;
 	font-size: 300%;
 	font-family: Mawns_Handwriting;
 	font-style: italic;
-	background: rgba(0, 0, 0, .7);
-	width: 1823px;
 	top: 600px;
+	left: 50px; 
 	text-align: center;
-	padding-top: 25px;
-	padding-left: 40px;
-	padding-right: 40px;
-	padding-bottom: 25px;
+
 }
 
-#ele4{
+#ele4 {
 	color: white; 
 	font-size: 300%; 
 	font-family: Mawns_Handwriting;
 	font-style: italic;
-	background: rgba(0, 0, 0, .7);
-	width: 1823px;
 	top: 750px;
+	left: 50px; 
 	text-align: center; 
-	padding-top: 25px;
-	padding-left: 40px; 
-	padding-right: 40px;
-	padding-bottom: 25px;
 }
 
-#ele3{
+#ele3 {
 	color: white;
 	font-size: 300%;
 	font-family: Mawns_Handwriting;
 	font-style: italic;
-	background: rgba(0, 0, 0, .7);
-	width: 1823px;
 	top: 900px;
+	left: 50px;
 	text-align: center;
-	padding-top: 25px;
-	padding-left: 40px;
-	padding-right: 40px;
-	padding-bottom: 25px;
+
 }
 #slide3{
 	z-index: -1; 
@@ -199,19 +180,14 @@ color: white;
 	position: relative;
 }
 
-#sex2{
-	color: white; 
+#sex2 {
+	color: black; 
 	font-size: 300%;
 	font-family: Mawns_Handwriting; 
-	font-style: italic; 
-	background: rgba(0, 0, 0, .7);
-	width: 1823px; 
+	font-style: italic;  
 	top: 500px;
+	left: 750px; 
 	text-align: center;
-	padding-top: 25px;
-	padding-left: 40px;
-	padding-right: 40px;
-	padding-bottom: 25px;
 }
 #slide4{
 	z-index: -1;
