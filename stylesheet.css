@@ -272,14 +272,9 @@ color: white;
 }
 
 #nicolAvatar {
-	padding-left: 150px;
-	width:200px;
-	height:250px;
-
+	width:300px;
+	height:300px;
+	padding-left:150px;
+	float:left;
 }
 
-#marilynAvatar{
-	padding-left: 400px;
-	width: 200px;
-	height: 200px; 
-}
