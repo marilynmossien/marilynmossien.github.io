@@ -274,6 +274,13 @@ color: white;
 #nicolAvatar {
 	width:300px;
 	height:300px;
-	padding-left:150px;
-	float:left;
+	left:250px;
+	border: 10px solid black;
+}
+
+#marilynAvatar {
+	width:300px;
+	height:300px;
+	left:250px;
+	border: 10px solid black;
 }
