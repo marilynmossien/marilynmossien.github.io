@@ -207,3 +207,73 @@ color: white;
 	height: 500px; 
 	width:100%; 
 }
+
+.aboutUS{
+	margin: 0; 
+	padding: 0; 
+	position: relative;
+}
+
+#aboutTitle {
+	color: black;
+	font-size: 500%;
+	font-family: Mawns_Handwriting; 
+	font-style: italic;  
+	top: 500px;
+	left: 50px; 
+	text-align: center;
+}
+
+
+#nicolTitle {
+	color: black;
+	font-size: 300%;
+	font-family: Mawns_Handwriting; 
+	font-style: italic;  
+	display:inline-block;
+	margin-right:500px;
+	margin-left:200px;
+	
+}
+
+#marilynTitle {
+	color: black;
+	font-size: 300%;
+	font-family: Mawns_Handwriting; 
+	font-style: italic;  
+	display:inline-block;
+
+}
+
+#nicolDescription {
+	color: black;
+	font-size: 150%;
+	font-family: Mawns_Handwriting; 
+	font-style: italic;
+	padding-left:150px;
+	max-width:600px;
+	float:left;
+
+
+}
+
+
+#marilynDescription {
+	color: black;
+	font-size: 150%;
+	font-family: Mawns_Handwriting; 
+	font-style: italic;  
+	padding-left:20px;
+	float:left;
+	padding-left:350px;
+	max-width: 600px;
+
+
+}
+
+#nicolAvatar {
+	padding-left: 150px;
+	width:200px;
+	height:250px;
+
+}
